@@ -39,8 +39,8 @@ setProtocol();
 
 function setProtocol() {
   const ports = {
-    http : ["80",  "8080", "2052", "2082", "2086", "2095"],
-    https: ["443", "8443", "2053", "2083", "2087", "2096"],
+    http : ["80",  "8080", "2052", "2082", "2086", "1074", "2408","2506", "2095"],
+    https: ["443", "8443", "2053", "2083", "2087", "1074", "2408","2506", "2096"],
   };
 
   portNo = document.getElementById('port-no').value || localStorage.getItem('port-no');
